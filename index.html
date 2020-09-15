@@ -1,66 +1,178 @@
-<html>
+<!doctype html>
+<html lang="en">
+
+
 
 <head>
 
-	<title>About Bob!</title>
 
+
+	<style>
+		<link rel="stylesheet"href="assets/css/style.css">.header box {
+
+			box-sizing: border-box;
+			background-color: blueviolet;
+			text-align: center center;
+
+		}
+
+		.border box {
+
+			size: 1000px;
+		}
+
+		.header {
+			overflow: visible;
+			background-color: none;
+			padding: 20px 10px;
+			position: relative;
+		}
+
+
+
+		.topnav a {
+			float: left;
+			display: block;
+			color: #f2f2f2;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			border-radius:
+		}
+
+
+		.selector-for-some-widget {
+			box-sizing: content-box;
+		}
+
+
+		<title>Kate's Blog!</title>
+
+
+		<meta name="viewport"content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"><link rel="stylesheet"href="assets/css/style.css">
+
+	</style>
 </head>
+
 
 <body>
 
-	<header>
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
 
-		<div>
+	<div class="header">
+		<a src=assets/img/t-2.jpg width=50px height=100px class="logo"> LOGO</a>
 
-			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/RG_Headshot.jpeg/1200px-RG_Headshot.jpeg" width="100">
+		<ul class="nav justify-content-end">
 
-		</div>
+			<a class="nav-link active" href="js-index.html">Home</a>
 
-		<nav>
 
-			<ul>
-				<li><a href="index.html">home</a></li>
-				<li><a href="about.html">about</a></li>
-				<li><a href="contact.html">contact</a></li>
-			</ul>
+			<a class="nav-link" href="js-about.html">About</a>
 
-		</nav>
+			<a class="nav-link" href="assets/img/t-7.png">Gallery</a>
 
-	</header>
+			<a class="nav-link enabled" href="js-contact.html" tabindex="-1" aria-disabled="true">Contact</a>
 
-	<div>
-		<h1><iframe width="560" height="315" src="https://www.youtube.com/embed/ybji16u608U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></h1>
-
-		<h2>Bob Garcia</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-			<br>
-
-			<a href="Contact.html">Contact Me</a>
-		</p>
+		</ul>
 
 	</div>
 
-	<footer>
-		<h1>Footer</h1>
-		<nav>
-
-			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/RG_Headshot.jpeg/1200px-RG_Headshot.jpeg" width="100">
 
 
-			<div>
+	<div class="container">
+		<div class="row">
 
-				<ul>
-					<li><a href="index.html">home</a></li>
-					<li><a href="about.html">about</a></li>
-					<li><a href="contact.html">contact</a></li>
-				</ul>
+			<div class="col">
+				<div style="width:10rem;">
+					<h1 class="Header">HEADING</h1>
+					<p class="col-text">With supporting text below as a natural lead-in to additional content.</p>
+					<div>
+						<a href="#" class="btn btn-primary">learn more</a>
+					</div>
+				</div>
 			</div>
-		</nav>
-		<p> &copy;2020 Copyright. All rights Reserved.</p>
+		</div>
+	</div>
 
-	</footer>
+
+	<div id="container">
+		<div class="row">
+
+			<div id="c1">
+				<div class="card">
+
+
+					<img src="assets/img/OIP%20(15).jpg" width="150px" height="150px">
+
+					<div class="card-body" style="width:10rem;">
+
+						<h2 class="Card title">HEADING</h2>
+						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<div id="container">
+
+			<div class="row">
+				<div id="c2">
+				<div class="card">
+
+					<img src="assets/img/OIP%20(13).jpg" width="150px" heighr="150px" class="card-img-top">
+
+					<div class="card-body" style="width:10rem;">
+						<h3 class="Card title">HEADING</h3>
+						<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+
+		<div class="container">
+			<div class="row">
+				<div id="c3">
+				<div class="card">
+					
+					<img src="assets/img/t-6.jpg" width="150px" height="150px" class="card-img-top">
+
+					<div class="card-body" style="width:10rem;">
+
+						<h4 class="card-title">HEADING</h4>
+						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. </p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="grid-container">
+			<div class="grid-item">
+				<div class="card" style="width:10rem;">
+					<div class="card-body">
+						<h5 class="Footer">HEADING</h5>
+						<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+						<a href="#" class="btn btn-primary">learn more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+			</div>
+		</div>
+	</div>
 
 
 </body>

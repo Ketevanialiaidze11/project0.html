@@ -1,10 +1,47 @@
 <!doctype html>
+
 <html>
 
 <head>
 
-	<title>CONTACT</title>
+	<title>blog</title>
 
+	<link rel="stylesheet" href="assets/css/style.css">
+
+
+	<style>
+		lable {
+
+			max-width: 400px;
+			margin-top: 10px;
+			display: inline-block;
+		}
+
+		input {
+
+			width: 100%;
+			padding: 10px;
+			border-radius: 5px;
+			border: 1px solid #CD6858;
+
+		}
+
+		input[type='submit']. textarea {
+
+			width: 188px;
+		}
+
+		textarea {
+
+			height: 100px;
+		}
+
+		.conf {
+
+			min-height: calc(100vh-170px);
+		}
+
+	</style>
 
 </head>
 
@@ -12,7 +49,22 @@
 	<div id=header></div>
 	<h1>Contact Me</h1>
 
-	<img src="assets/img/bob.jpeg" width="200" height="200">
+	<ul class="nav justify-content-end">
+
+		<a class="nav-link active" href="js-index.html">Home</a>
+
+
+		<a class="nav-link" href="js-about.html">About</a>
+
+
+		<a class="nav-link" href="assets/img/t-7.png">Gallery</a>
+
+
+		<a class="nav-link enabled" href="js-contact.html" tabindex="-1" aria-disabled="true">Contact</a>
+
+	</ul>
+
+	<img src="assets/img/OIP%20(5).jpg" width="200" height="200">
 
 
 	<form>
@@ -21,25 +73,25 @@
 				<input type="text" name="nm"><br>
 
 				<label>Email<br>
-					<input type="text" name="eml"><br><br>
+					<input type="text" name="eml"><br>
+
+
+
+
+					<lable>Message<br>
+						<textarea id="message" name="message" rows="7" cols="35"></textarea><br>
+
+					</lable>
+					<br>
+					<br>
+					<input type="submit" value="Send">
 
 				</label>
-
 			</lable>
-			<lable>Message<br>
-				<textarea id="message" name="message" rows="7" cols="30"></textarea>
-
-			</lable>
-			<br>
-			<br>
-			<input type="submit" value="Send">
-
 		</div>
-
 	</form>
 
 
 </body>
-
 
 </html>
